@@ -1,0 +1,104 @@
+
+
+body {
+
+}
+
+body > *  {
+    width: 600px;
+
+}
+
+h1 {
+    color: green;
+    font-size: 70px;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+}
+
+form > label {
+    color: black;
+}
+
+form * {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+}
+.italics {
+    font-style: italic;
+}
+
+#site-container {
+    margin: auto;
+    width: 1300px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (width < 1285px){
+    .articles {
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #site-container {
+        width: 800px;
+    }
+}
+
+@media (width < 800px){
+    .articles {
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #site-container {
+
+        width: 500px;
+    }
+}
+
+
+
+.articles > div {
+    padding: 30px;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+#button-area > button {
+    margin: 0 50px;
+}
+
+img {
+    width: 100%;
+}
+
+#yard {
+    width: 300px;
+    object-fit: contain;
+    object-position: 40% 0;
+}
+

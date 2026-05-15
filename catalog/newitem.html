@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Post new item</title>
+</head>
+<body>
+    <div>
+        <h1>Form entry for event</h1>
+    </div>
+  <form action="http://localhost:5004/form" method="post">
+    <label >Message:</label>
+    <input type="text" name="message">
+    <label >Email:</label>
+    <input type="email" name="email">
+      <label >Password:</label>
+    <input type="password" name="password">
+      <label >Time:</label>
+    <input type="time" name="time">
+      <label >Color:</label>
+    <input type="color" name="colorcode">
+    <label for="dirnum">Directory ID:</label>
+    <input type="number" id="dirnum" name="directoryid" min="1" step="10" value="55">
+    <input type="submit" value="Push to post">
+  </form>
+<div></div>
+  
+</body>
+</html>
