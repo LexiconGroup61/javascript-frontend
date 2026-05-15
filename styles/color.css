@@ -1,0 +1,21 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+body * {
+    width: 400px;
+    height: 400px;
+}
+
+#example-a {
+    background-color: hsl(95 40% 50%);
+}
+
+#example-b {
+    background-color: hsl(100 50% 63%);
+}
+
+#example-c {
+    background-color: hsl(109 59% 73%);
+}
