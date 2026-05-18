@@ -1,3 +1,12 @@
+:root {
+    --hue: 30;
+    --bg-color-a: hsl(var(--hue) 40% 50%);
+    --bg-color-b: hsl(var(--hue) 50% 63%);
+    --bg-color-c: hsl(var(--hue) 59% 73%);
+    --radius: 20px;
+    --border-thick: 8px;
+    --border-opacity: 70%;
+}
 
 body {
     display: flex;
@@ -9,13 +18,22 @@ body * {
 }
 
 #example-a {
-    background-color: hsl(95 40% 50%);
+    background-color: var(--bg-color-a);
+    border-radius: var(--radius);
 }
 
 #example-b {
-    background-color: hsl(100 50% 63%);
+    background-color: var(--bg-color-b);
+    border-radius: var(--radius);
 }
 
 #example-c {
-    background-color: hsl(109 59% 73%);
+    background-color: var(--bg-color-c);
+    border-radius: var(--radius);
+}
+
+h1 {
+    border:  var(--border-thick) solid hsl(18 8% 50% / var(--border-opacity)) ;
+    padding: 10px 100px;
+    border-radius: var(--radius);
 }
