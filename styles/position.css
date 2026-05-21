@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.position-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(150, 90%, 95%);
+    position: relative;
+}
+
+.between-container{
+    width: 50vw;
+    height: 80vh;
+    background-color: hsl(150, 60%, 55%);
+}
+
+.card {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: hsl(150, 30%, 85%);
+}
+p {
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
