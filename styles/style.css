@@ -40,6 +40,7 @@ form {
 #site-container {
     margin: auto;
     width: 1300px;
+    transform: rotate(-5deg);
 }
 
 .articles {
@@ -102,3 +103,19 @@ img {
     object-position: 40% 0;
 }
 
+.hoverable:hover {
+    color: red;
+}
+
+.moved {
+    transform: translate(220px, -190px) rotate(-10deg);
+    font-size: 60px;
+    font-weight: bold;
+    color: orange;
+    width: 200px;
+    line-height: 0.7;
+    align: center;
+    background-color: lightblue;
+    padding: 30px 5px;
+    border-radius: 70px;
+}

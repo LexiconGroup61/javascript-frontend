@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 300px 400px;
+    grid-template-areas:
+    "nav nav nav logo logo search search"
+    "body1 body1 body2 body3 body4 body5 body6"
+    "body7 body8 body9 body10 body11 body12 body13";
+
+}
+
+.grid-example {
+    min-width: 150px;
+    min-height: 90px;
+    background-color: green;
+}
+
+
+.grid-case1 {
+    background-color: brown;
+    grid-area: nav;
+
+}
+
+.grid-case2 {
+    background-color: yellow;
+}
+
+.grid-case6 {
+    background-color: pink;
+    grid-area: logo;
+}
+
+@media (width < 900px){
+    .container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+    " body5 body6 body7 logo logo "
+    "search search body1 body1 body2 "
+    "body3 body4  nav nav nav"
+    "body8 body9 body10 body11 body12";
+
+    }
+}
+
