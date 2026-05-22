@@ -119,3 +119,11 @@ img {
     padding: 30px 5px;
     border-radius: 70px;
 }
+
+.square {
+    fill: chartreuse;
+}
+
+.bg-square {
+    fill: darkmagenta;
+}
