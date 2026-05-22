@@ -1,4 +1,5 @@
 .container {
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px 300px 400px;
@@ -29,6 +30,12 @@
 .grid-case6 {
     background-color: pink;
     grid-area: logo;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
 }
 
 @media (width < 900px){
