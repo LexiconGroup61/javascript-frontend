@@ -6,3 +6,12 @@ p {
 .red {
     color: red;
 }
+
+svg {
+    width: 200px;
+    height: 200px;
+}
+
+#bank {
+    display: none;
+}
